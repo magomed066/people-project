@@ -1,13 +1,64 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+* {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  body {
+    height: 100vh;
+    background-color: #df3f74;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+  }
+
+  .card {
+    width: 300px;
+    /* min-height: 400px; */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px #424242
+  }
+
+  .card-item__logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .card-item {
+    padding: 7px 0;
+    display: flex;
+    align-items: center;
+
+  }
+
+  .card-list__info {
+    margin-left: 15px;
+  }
+
+  .clear-btn {
+    border: none;
+    background-color: #C62828;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .card-list__name {
+    font-weight: bold;
+   }
+
+  .card-item__age {
+    font-size: 14px;
+    color: #9E9E9E
+  }
+
+  .count {
+      margin: 0 auto 10px auto;
+  }
